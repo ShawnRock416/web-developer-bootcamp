@@ -1,0 +1,29 @@
+body {
+  background-color: #212529;
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+
+.btn {
+  padding: 1em 2em;
+  color: #80ffdb;
+  border: 2px solid #80ffdb;
+  background-color: #212529;
+  font-size: 1.2em;
+  margin: 0 auto;
+  border-radius: 5px;
+  transition: all 0.25s;
+}
+
+.btn:hover {
+  transform: translateY(-0.25em);
+  color: #fff;
+  border: 1px solid #6930c3;
+  box-shadow: 0 0.5em 0.5em -0.4em #6930c3;
+  cursor: pointer;
+}

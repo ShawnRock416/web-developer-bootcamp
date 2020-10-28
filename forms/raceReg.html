@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="raceReg.css">
+  <title>Race Registration</title>
+</head>
+
+<body>
+  <h1>Race Registration</h1>
+
+  <form action="">
+    <div class="name">
+      <label for="firstName">First Name:</label>
+      <input type="text" placeholder=" EnterFirst Name" name="firstName" id="firstName">
+      <label for="lastName">Last Name:</label>
+      <input type="text" placeholder=" Enter Last Name" name="lastName" id="lastName">
+    </div>
+
+    <div class="raceChoice">
+      <p>Select a race:</p>
+      <p>
+        <input type="radio" name="race" id="funrun">
+        <label for="funrun">Fun Run 5K</label>
+      </p>
+      <p>
+        <input type="radio" name="race" id="half">
+        <label for="half">Half Marathon</label>
+      </p>
+      <p>
+        <input type="radio" name="race" id="full">
+        <label for="full">Full Marathon</label>
+      </p>
+    </div>
+
+    <div class="login">
+      <label for="email">Email:</label>
+      <input type="password" name="password" id="password" placeholder="Enter an Email">
+      <label for="password">Password:</label>
+      <input type="email" name="email" id="email" placeholder="Enter a Password">
+    </div>
+
+
+    <div class="age">
+      <label for="age">Select Age Group</label>
+      <select name="age" id="age">
+        <option value="under">under 18</option>
+        <option value="over">over 18</option>
+      </select>
+    </div>
+
+    <div class="btn-container">
+      <button class="btn">Resister! </button>
+    </div>
+  </form>
+</body>
+
+</html>

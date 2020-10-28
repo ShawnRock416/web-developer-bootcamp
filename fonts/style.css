@@ -1,0 +1,21 @@
+body {
+  font-family: Roboto, sans-serif;
+}
+
+h1,h2,h3 {
+  font-family: 'Sansita Swashed', cursive;
+}
+ 
+h1 {
+  margin-bottom: 0;
+  border-bottom: 1px solid black;
+}
+
+h1 + h2 {
+  margin-top: 5px;
+}
+
+main {
+  width: 60%;
+  margin: 0 auto;
+}
